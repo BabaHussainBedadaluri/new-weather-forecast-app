@@ -1,0 +1,32 @@
+.container {
+  max-width: 650px;
+  margin: 20px auto;
+}
+
+#root {
+  background-image: url("https://wallpaperaccess.com/full/5466409.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+* {
+  margin: 0;
+  padding: 0.1px;
+  box-sizing: border-box;
+}
+.title {
+  font-family: "Rye", cursive;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .container {
+    min-width: 100px;
+    margin: 20px auto;
+  }
+}

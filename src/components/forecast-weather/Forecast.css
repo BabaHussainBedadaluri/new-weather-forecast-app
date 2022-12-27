@@ -1,0 +1,30 @@
+.upper-div {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+.root {
+  margin: 20px 100px;
+}
+.card {
+  width: 11rem;
+  display: flex;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 15px;
+  /* background-color: rgba(8, 9, 9, 0.5); */
+
+  border: 2px solid none;
+  box-shadow: 5px 5px 20px rgb(28, 50, 59);
+}
+.card-text {
+  font-style: italic;
+}
+
+@media screen and (max-width: 450px) {
+  .forecast-temp {
+    font-size: 20px;
+  }
+}
